@@ -20,6 +20,7 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('equi_joins/',equi_joins,name='equi_joins'),
+    path('em_dp_mr/',em_dp_mr,name='em_dp_mr'),
 ]
 
 
